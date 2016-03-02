@@ -81,7 +81,7 @@ var game = (() => {
 
 
         //Adding Textures
-        var textureTower = THREE.ImageUtils.loadTexture('Scripts/core/Texturers/Concrete.jpg');
+        var textureTower = THREE.ImageUtils.loadTexture('Scripts/core/Texturers/Tower.jpg');
         var materialTower = new THREE.MeshPhongMaterial({
             map: textureTower,
             bumpMap: textureTower,
