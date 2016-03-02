@@ -3,9 +3,9 @@ var config;
     var Screen = (function () {
         function Screen() {
         }
-        Screen.WIDTH = window.innerWidth;
-        Screen.HEIGHT = window.innerHeight;
-        Screen.RATIO = window.innerWidth / window.innerHeight;
+        Screen.WIDTH = 1280;
+        Screen.HEIGHT = 720;
+        Screen.RATIO = 16 / 9;
         return Screen;
     }());
     config.Screen = Screen;

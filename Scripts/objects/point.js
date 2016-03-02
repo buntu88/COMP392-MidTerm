@@ -2,6 +2,9 @@
 var objects;
 (function (objects) {
     // POINT CLASS ++++++++++++++++++++++++++++++++++++++++++
+    //Last Modified by      Vishal Guleria
+    //Date last Modified    March 2,2016
+    //Program description   COMP392 - MidTerm  The Tapered Tower
     var Point = (function () {
         // CONSTRUCTOR ++++++++++++++++++++++++++++++++++++++++
         function Point(x, y, z) {
